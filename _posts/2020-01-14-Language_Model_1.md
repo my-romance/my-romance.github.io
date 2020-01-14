@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Language Model 1"
+date:   2020-01-14
+author: Romance
+categories: NLP
+---
+
 ### 1. 언어 모델(Language Model)
 
 언어 모델은 단어 시퀀스에 확률을 할당하는 일을 하는 모델. (즉, **가장 자연스러운 단어 시퀀스를 찾아내는 모델**) 
