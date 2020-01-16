@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Shannon Entropy"
+date:   2020-01-16
+author: Romance
+categories: NLP
+---
 Shannon Entropy (정보량과 불확실성의 상관관계)
 요점 : 불확실성이 높을수록 많은 정보량을 얻게 된다
 
