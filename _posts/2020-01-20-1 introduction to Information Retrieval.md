@@ -22,7 +22,7 @@ Information Retrieval (IR) : finding material (usually documents) of an unstruct
 
 ### The classic search model
 
-![모델 구성도](C:\Users\huare\나의 공간\markdown\자연어 처리\IR\youtube  강의\image\the classic search model.PNG)
+![모델 구성도](my-romance/my-romance.github.io/asses/image/the classic search model.PNG)
 
 classic search model 설명 : info need를 위한 적절한  `Query`를 `Search engine`에 날리면 `Collection`에서 `Query`와 연관이 있는 정보 즉, 문서를 output으로 제공하여 `Results`를 만들어 낸다. `Results`가 마음에 들지 않는다면 `Query`를 다시 정제(`Query refinement`)하여 새로운 `Query`를 `Search engine`에 날린다.
 
