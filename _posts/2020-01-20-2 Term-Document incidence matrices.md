@@ -23,7 +23,7 @@ an **incidence matrix** is a matrix that shows the relationship between two clas
 
 ### Term-Document incidence matrices
 
-![모델 구성도](C:\Users\huare\나의 공간\markdown\자연어 처리\IR\youtube  강의\image\term document incidence matrices.PNG)
+<img src="/assets/image/term document incidence matrices.PNG">
 
 `Brutus AND caesar BUT NOT Calpurnia`
 
