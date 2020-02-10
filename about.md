@@ -7,7 +7,7 @@ main_nav: true
 
 ![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
 
-자연어처리와 기게학습, 딥러닝에 관심이 많아 이를 위주로 공부하고 정리하여 posting을 할 예정입니다.
+자연어처리와 기계학습, 딥러닝에 관심이 많아 이를 위주로 공부하고 정리하여 posting을 할 예정입니다.
 
 자연어처리는 natural language understanding, IR, summarization에 관심이 많습니다.
 
