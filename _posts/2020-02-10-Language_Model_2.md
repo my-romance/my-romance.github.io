@@ -65,6 +65,4 @@ $$
 
 <br>
 
-출처 : https://wikidocs.net/21687
-
-          한국어 임베딩 책
+출처 : https://wikidocs.net/21687, 한국어 임베딩 책
