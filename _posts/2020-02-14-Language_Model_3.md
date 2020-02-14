@@ -34,7 +34,7 @@ example : 3개의 단어만 보고 다음 단어를 예측할 경우 3-gram 언�
 
   $P(w\|boy\ is\ spreading) = \frac{count(boy\ is\ spreading\ w)}{count(boy\ is\ spreading)}$
 
-  $count(boy\ is\ spreading)=1000, count(boy\ is\ spreading\ insults)=500, count(boy\ is\ spreading\ smiles)=200$라면  $P(insults\|boy is spreading) = 50\%$, $P(smiles\|boy is spreading) = 20\%$
+  $count(boy\ is\ spreading)=1000, count(boy\ is\ spreading\ insults)=500, count(boy\ is\ spreading\ smiles)=200$라면  $P(insults\|boy\ is\ spreading) = 50\%$, $P(smiles\|boy\ is\ spreading) = 20\%$
 
 <br>
 
