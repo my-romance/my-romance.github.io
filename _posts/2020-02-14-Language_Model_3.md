@@ -17,10 +17,10 @@ example : 3개의 단어만 보고 다음 단어를 예측할 경우 3-gram 언�
 - 모든 단어를 고려하는 경우 코퍼스에서 그 sequence(모든 단어)가 존재하지 않을 가능성  ↑
   → 일부 단어만을 고려하면 코퍼스에서 그 sequence(일부 단어)가 존재할 가능성 ↑ 
 - bigram 모델 예제
-  $P(명작이다 | 내, 마음, 속에, 영원히, 기억될, 최고의) \approx P(명작이다 | 최고의)$
+  $P(명작이다 \| 내, 마음, 속에, 영원히, 기억될, 최고의) \approx P(명작이다 \| 최고의)$
   "내 마음 속에 영원히 기억될 최고의 명작이다"가 있을 가능성보다는 "최고의 명작이다"라는 더 짧은 단어 시퀀스가 존재할 가능성 ↑
 - trigram 모델 예제
-  $P(명작이다 | 내, 마음, 속에, 영원히, 기억될, 최고의) \approx P(명작이다 | 기억될, 최고의)$
+  $P(명작이다 \| 내, 마음, 속에, 영원히, 기억될, 최고의) \approx P(명작이다 \| 기억될, 최고의)$
   "내 마음 속에 영원히 기억될 최고의 명작이다"가 있을 가능성보다는 "기억될 최고의 명작이다"라는 더 짧은 단어 시퀀스가 존재할 가능성 ↑
 
 <br>
@@ -32,9 +32,9 @@ example : 3개의 단어만 보고 다음 단어를 예측할 경우 3-gram 언�
 - example :
   **An adorable little boy is spreading** 다음에 나올 단어 예측을 위한, 4-gram을 이용한 언어 모델 사용 → **3(=4-1)개의 단어만을 고려하여 다음 단어 예측**
 
-  $P(w|boy\ is\ spreading) = \frac{count(boy\ is\ spreading\ w)}{count(boy\ is\ spreading)}$
+  $P(w\|boy\ is\ spreading) = \frac{count(boy\ is\ spreading\ w)}{count(boy\ is\ spreading)}$
 
-  $count(boy\ is\ spreading)=1000, count(boy\ is\ spreading\ insults)=500, count(boy\ is\ spreading\ smiles)=200$라면  $P(insults|boy is spreading) = 50\%$, $P(smiles|boy is spreading) = 20\%$
+  $count(boy\ is\ spreading)=1000, count(boy\ is\ spreading\ insults)=500, count(boy\ is\ spreading\ smiles)=200$라면  $P(insults\|boy is spreading) = 50\%$, $P(smiles\|boy is spreading) = 20\%$
 
 <br>
 
