@@ -14,7 +14,7 @@ categories: IR
 - Good for expert users with precise understanding of their needs and the collection
   - Also good for applications : applications can easily consume 1000s of results
 - **Not good for the majority of users**
-  - Most users incapable of writing Boolean queries (or they are, but they think it's too muck work)
+  - Most users incapable of writing Boolean queries (or they are, but they think it's too much work)
   - Most users don't want to wade through 1000s of results
     - This is particularly true of web search
 
@@ -22,11 +22,11 @@ categories: IR
 
 ### Problem with Boolean Search : Feast or Famine
 
-- Boolean queries often result in either **too few **($\approx0$) or **too many** (1000s) results
+- Boolean queries often result in either **too few** ($\approx0$) or **too many** (1000s) results
 - example 
   - Query 1 : "stanford user dlink 650" → 200,000 hits
   - Query 2 : "stanford user dlink 650 no card found" → 0 hit
-- It takes a lost of skill to come up with a query that produces a manageable number of hits
+- It takes skill to come up with a query that produces a manageable number of hits
   - AND gives too few; OR gives too many
 
 <br>
