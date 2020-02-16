@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "8. Introducing Ranked Retrieval"
+title:  "8. Scoring with the Jaccard Coefficient"
 date:   2020-02-17
 author: Romance
 categories: IR
@@ -12,7 +12,7 @@ categories: IR
 : 집합 A, B가 얼마나 비슷한지 나타내는 계수
 
 - A commonly used measure of **overlap of two sets A and B** is the Jaccard Coefficient
-  - Jaccard(A,B) = $|A\cap B|$ / $|A\cup B|$
+  - Jaccard(A,B) = $\|A\cap B\|$ / $\|A\cup B\|$
   - Jaccard(A,A) = 1
   - Jaccard(A,B) = 0, if $A\cap B=0$
 -  A and B don't have to be the same size
@@ -40,7 +40,7 @@ categories: IR
 
 - We need a more sophisticated way of normalizing for length
 
-  - use $|A\cap B|\ /\ |\sqrt{A\cup B}|$, instead of   $|A\cap B|$ / $|A\cup B|$ for length normalization
+  - use $\|A\cap B\|\ /\ \|\sqrt{A\cup B}\|$, instead of   $\|A\cap B\|$ / $\|A\cup B\|$ for length normalization
 
 <br>
 
