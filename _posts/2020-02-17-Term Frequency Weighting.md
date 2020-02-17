@@ -12,7 +12,7 @@ categories: IR
 
 <img src="/assets/image/binary_t_d.PNG">
 
-- Each document is represented by a binary vector  $\in\{0,1\}^{\|V|\}$
+- Each document is represented by a binary vector  $\in \{0,1 \}^{\|V\|}$
 
 <br>
 
@@ -57,6 +57,7 @@ categories: IR
 $tf$가 높으면 높을수록 score이 커지되, linear 관계는 되지 않도록 **log**를 사용.
 
 - The log frequency weight of term $t$ in $d$ is 
+
   $$
   w_{t,d} =
   \begin{cases}
