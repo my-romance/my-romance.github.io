@@ -34,7 +34,7 @@ $$
 
 <img src="/assets/image/weight_matrix.PNG">
 
-- Each document is now represented by a real-valued vector of **tf-idf weights**  $\in R^{|V|}$
+- Each document is now represented by a real-valued vector of **tf-idf weights**  $\in R^{\|V\|}$
 
 <br>
 
