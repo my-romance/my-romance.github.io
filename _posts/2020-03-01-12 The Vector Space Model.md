@@ -9,7 +9,7 @@ categories: IR
 
 ### Documents as vectors
 
-- we have |V|-dimensional vector space
+- we have \|V\|-dimensional vector space
   - V 는 사전(vocab)에 들어있는 단어 수
 - **Terms are axes of the space**
 - Documents are points or vectors in this space
