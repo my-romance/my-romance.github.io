@@ -16,7 +16,7 @@ categories: IR
   - a(augmented)  $\rightarrow$ 0.5~1의 값이 나오도록
   - p(prob idf) $\rightarrow$ term이 전체 문서에서 반 이상나온다면 가중치 0을 주어 불용어 취급
 
-
+<br>
 
 ### Weighting may differ in queries VS. documents
 
@@ -27,7 +27,7 @@ categories: IR
   -  no idf를 사용하는 이유 : you've already put in an IDF factor for the same words in the query.
 - query : logarithmic tf, idf, cosine normalization
 
-
+<br>
 
 ### tf-idf exmaple : lnc.ltc
 
@@ -35,7 +35,7 @@ categories: IR
 
 - prod = query's n'lize * document's n'lize
 
-
+<br>
 
 ### Computing Cosine Scores
 
@@ -44,7 +44,7 @@ categories: IR
 - **length normalization of the query is actually unnecessary** because the query vector has some length and for whatever it is, the effective length normalization would just be a rescaling that applies to all query document calculation and wouldn't change the final result.
 - 효율적인 알고리즘은 아니지만 가장 general idea 알고리즘
 
-
+<br>
 
 ### Summary - Vector Space Ranking
 
@@ -54,7 +54,7 @@ categories: IR
 - Rank documents with respect to the query by score
 - return the top K to the user
 
-
+<br>
 
 ### 출처 
 
