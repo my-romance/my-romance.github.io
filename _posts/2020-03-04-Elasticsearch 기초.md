@@ -101,7 +101,7 @@ categories: elasticsearch
 
 ### Elasticsearch의 기본 개념/용어
 
-- **index/type/document** : elasticsearch의 데이터 계층. REST API에서 문서를 표현할 때는``/news/article/10000`과 같이 표현. 이때,  `news` : index, `article` : type, `10000 `: document
+- **index/type/document** : elasticsearch의 데이터 계층. REST API에서 문서를 표현할 때는 `/news/article/10000`과 같이 표현. 이때,  `news` : index, `article` : type, `10000 `: document
 - **field** : 문서의 property. 
 - **mapping** : index/type/document의 규칙을 정의한 것. 사용자가 직접 정의할 수 있음.
 - **index(색인)** :  V. elasticsearch가 문서를 검색할 수 있도록 색인 데이터를 만들어두는 과정. 
