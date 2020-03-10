@@ -16,7 +16,7 @@ categories: ML
 
 <img src="/assets/image/vanila_rnn_1.PNG">
 
-
+<br>
 
 ### LSTM(Long Short-Term Memory)
 
@@ -28,7 +28,7 @@ LSTM의 특징 : **은닉층의 메모리 셀에 input gate, forget gate, output
 
 즉, LSTM은 hidden state를 계산하는 식이 더 복잡해졌으며, **셀 상태(cell state)**라는 개념이 추가됨
 
-
+<br>
 
 **LSTM 특징**
 
@@ -42,7 +42,7 @@ LSTM의 특징 : **은닉층의 메모리 셀에 input gate, forget gate, output
 -  3개의 gate 
   3개의 gate에는 공통적으로 시그모이드 함수가 존재 → 0~1의 값을 가지는데 이 값들을 이용해 cell state와 hidden state를 반환
 
-
+<br>
 
 **LSTM의 단계**
 
@@ -70,7 +70,7 @@ LSTM의 특징 : **은닉층의 메모리 셀에 input gate, forget gate, output
 
    $h_t$ : $C_t$가 tanh를 거쳐 -1~1의 값을 받은 뒤, 이전에 계산된 $o_t$와 곱해준다. → **output으로 보내고자 하는 부분만 내보낼 수 있게됨**
 
-
+<br>
 
 ### 참조
 
