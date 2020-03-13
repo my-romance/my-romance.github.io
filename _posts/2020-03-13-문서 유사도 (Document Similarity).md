@@ -26,6 +26,7 @@ categories: NLP
 <br>  
 
 - 코사인 유사도 식
+
   $$
   similarity = cos(\Theta) = \frac{A \cdot B}{\|\|A\|\|\ \|\|B\|\|} = \\
   \frac{\sum_{i=1}^{n}A_i \times B_i}{\sqrt {\sum_{i=1}^{n}(A_i)^2} \times \sqrt {\sum_{i=1}^{n}(B_i)^2}} 
@@ -86,7 +87,10 @@ categories: NLP
 - Euclidean distance란 : **두 점 사이의 거리를 계산**(함으로서 유사도를 구함)
 
 - Euclidean distance 식 : 
+
   다차원 공간에서 두개의 점 $p$와 $q$가 각각 $p = (p_1,p_2,p_3,...,p_n)$과 $q = (q_1,q_2,q_3,...,q_n)$의 좌표를 가질 때, 두 점 사이의 거리 계산
+  
+  
   $$
   \sqrt{(q_1-p_1)^2+(q_2-p_2)^2+...+(q_n-p_n)^2} = \sqrt{\sum_{i=1}^n(q_i-p_i)^2}
   $$
@@ -153,6 +157,7 @@ categories: NLP
   - 자카드 유사도의 값 1 : 두 집합이 동일한 경우
 
 - 자카드 유사도 수식 : 
+
   $$
   J(A,B) = \frac{\|A\cap B\|}{\|A\cup B\|} = \frac{\|A\cup B\|}{\|A\|+\|B\|-\|A\cup B\|}
   $$
