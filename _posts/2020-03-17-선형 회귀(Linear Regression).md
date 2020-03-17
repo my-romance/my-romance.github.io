@@ -19,6 +19,7 @@ categories: ML
   $$
   y = Wx+b
   $$
+  
   $W$: 가중치(weight), $b$ : 편향(bias)  → $W$,$b$의 값을 적절히 찾아내면, $x$와 $y$의 관계를 적절히 모델링한 것.
 
 - 다중 선형 회귀 분석(Multiple Linear Regression Analysis)
@@ -50,6 +51,7 @@ $x$와 $y$의 관계를 모델링하기 위해 적절한 $W$와 $b$의 값을 �
   $$
   cost(W,b) = \frac{1}{n}\sum_{i=1}^n[y^{(i)}-H(x^{(i)})]^2
   $$
+  
   $n$은 데이터의 갯수, $y^{(i)}$는 데이터 $i$의 실제값, $H(x^{(i)})$는 데이터 $i$의 예측값
 
 - example
@@ -81,6 +83,7 @@ cost function을 최소화하는 매개 변수 $W$와 $b$를 찾기 위한 알�
   $$
   W = W - \alpha\frac{∂}{∂W}cost(W)
   $$
+  
   위 식을 $cost(W)$식의 접선의 기울기($\frac{∂}{∂W}cost(W)$)가 0이 될 때까지 반복 
 
 - 경사하강법 예제
