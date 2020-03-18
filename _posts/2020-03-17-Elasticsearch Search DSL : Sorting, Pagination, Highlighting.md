@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Elasticsearch Search DSL : Sorting, Pagination, Highlighting, Suggestions"
+title:  "Elasticsearch Search DSL : Sorting, Pagination, Highlighting"
 date:   2020-03-17
 author: Romance
 categories: elasticsearch
 ---  
-# Elasticsearch Search DSL : Sorting, Pagination, Highlighting, Suggestions
+# Elasticsearch Search DSL : Sorting, Pagination, Highlighting
 
 ### Sorting
 
