@@ -113,53 +113,8 @@ s = s.highlight_options(order='score')
 
 <br>
 
-### Suggestions
-
-사용자가 키워드를 잘 못 입력하였거나 검색한 결과가 없을 경우, 도큐먼트 내에 존재하는 단어를 대상으로 비슷한 키워드를 변경해서 제시하는 **교정 기능** 제공
-
-- Term suggest API : 추천단어 제안
-  잘못된 철자에 대해 해당 인덱스의 특정 필드에서 가장 유사한 단어를 추천해주는 오타 교정 방법
-
-- Completion suggest API : 자동완성 제안
-
-  사용자가 입력을 완료하기 전에 자동완성을 사용해 검색어를 예측해서 보여줌. 
-
-- Phrase suggest API : 추천문장 제안
-
-- Context suggest  API : 추천 문맥 제안
-
-Term suggest API 예시
-
-```python
-text = "삘강"
-suggDoc = {
-	"entity-suggest" : {
-		'text' : text,
-		"term" : {
-			"field" : "color"
-		}
-	}
-}
-query_dic = {"suggest" : suggDoc}
-result = client.search(body = query_dic, index = index_name)
-print(result['suggest'])
-```
-
-```python
-s = Search(index = index_name).using(client).suggest('my_suggestion', '삘강', term={'field': 'color'})
-response = s.execute()
-
-for x in response.suggest['my_suggestion']:
-	for y in x['text']: print(y)
-```
-
-문법은 첫번째와 두번째 코드처럼 사용할 수 있지만 영어만 잘되는 거 같음. **한글은 ICU 분석기**를 이용하여 오타를 교정하는 것이 가능하다고 함.
-
-<br>
 
 ### 출처
 
 - https://elasticsearch-dsl.readthedocs.io/en/latest/search_dsl.html
-- https://stackoverflow.com/questions/24602347/how-to-use-suggest-in-elasticsearch-pyes
-- https://deviscreen.tistory.com/29
 
