@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "MySQL 문법 : UPDATE"
-date:   2020-02-19
+title:  "MySQL 문법 : rowid를 이용한 데이터 "
+date:   2020-06-29
 author: Romance
 categories: MySQL
 ---
